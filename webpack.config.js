@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
+    mode: 'production',
     entry: ['@babel/polyfill', './src/index.js'],
     output: {
         filename: '[name].[contenthash].js',
