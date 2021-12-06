@@ -2,14 +2,17 @@ import React, { useState } from 'react';
 import desayunos from './images/menu abe-05.jpg';
 import comidas from './images/menu abe-07.jpg';
 import room from './images/menu abe-10.jpg';
+import vinos from './images/menu_abe-25.jpg';
 import menudesayunos from './images/desayuno.jpg';
 import menucomidas from './images/comida.jpg';
 import menuroom from './images/roomservice.jpg';
+import menuvinos from './images/vino_y_licores.jpg';
 
 const images = {
   desayunos: menudesayunos,
   comidas: menucomidas,
   roomservice: menuroom,
+  vinos: menuvinos,
 };
 
 function App() {
@@ -33,6 +36,9 @@ function App() {
                 </div>
                 <div className="img-abe">
                   <img onClick={handleClick} id="roomservice" src={room} alt="RoomService :)" className="abe-service" />
+                </div>
+                <div className="img-abe">
+                  <img onClick={handleClick} id="vinos" src={vinos} alt="Vinos y licores :)" className="abe-service" />
                 </div>
               </div>
             </div>
