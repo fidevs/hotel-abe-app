@@ -3,10 +3,10 @@ import desayunos from './images/menu abe-05.jpg';
 import comidas from './images/menu abe-07.jpg';
 import room from './images/menu abe-10.jpg';
 import vinos from './images/menu_abe-25.jpg';
-import menudesayunos from './images/desayuno.jpg';
-import menucomidas from './images/comida.jpg';
-import menuroom from './images/roomservice.jpg';
-import menuvinos from './images/vino_y_licores.jpg';
+import menudesayunos from './images/menu_abe_desayuno.jpg';
+import menucomidas from './images/menu_abe_comidas.jpg';
+import menuroom from './images/menu_abe_room_service.jpg';
+import menuvinos from './images/menu_abe_vinos_y_licores.jpg';
 
 const images = {
   desayunos: menudesayunos,
